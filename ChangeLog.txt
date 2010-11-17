@@ -1,0 +1,28 @@
+10-03-28 nliaudat  <nliaudat[at]pompiers-chatel.ch>
+*Fix bug : Custom SQL wasn't functionnal with typo3 4.2
+
+09-05-20 nliaudat  <nliaudat[at]pompiers-chatel.ch>
+*Updated to work as gallery
+
+09-03-19 nliaudat  <nliaudat[at]pompiers-chatel.ch>
+* Updated to use xml locallang
+* Now support Text/Pics data fields
+* Auto add altText and titleText to images
+
+07-03-20 nliaudat  <nliaudat[at]pompiers-chatel.ch>
+* manual added
+
+07-03-19 nliaudat  <nliaudat[at]pompiers-chatel.ch>
+* Clear bug in custom sql expression
+
+
+07-03-17 nliaudat  <nliaudat[at]pompiers-chatel.ch>
+* Clear some bugs
+* Add custom sql expression
+* Add debugging info
+* Add support for multiples images in one field
+* Add support for Alttext for Images (dmc_image_alttext)
+
+07-03-15 nliaudat  <nliaudat[at]pompiers-chatel.ch>
+
+* Initial release

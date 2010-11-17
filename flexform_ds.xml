@@ -1,0 +1,175 @@
+<T3DataStructure>
+ <meta type="array">
+  <langDisable>1</langDisable>
+ </meta>
+ <sheets type="array">
+  <sDEF type="array">
+   <ROOT type="array">
+    <TCEforms type="array">
+     <sheetTitle>LLL:EXT:sql_random_image/locallang_db.xml:tt_content.pi_flexform.sheet_sql</sheetTitle>
+    </TCEforms>
+    <type>array</type>
+    <el type="array">
+     <sql_regexp type="array">
+      <TCEforms type="array">
+       <label>LLL:EXT:sql_random_image/locallang_db.xml:tt_content.pi_flexform.sheet_sql.sql_regexp</label>
+       <config type="array">
+        <type>input</type>
+        <size>100</size>
+        <max>255</max>
+        <default></default>
+       </config>
+      </TCEforms>
+     </sql_regexp>
+     <sql_not_regexp type="array">
+      <TCEforms type="array">
+       <label>LLL:EXT:sql_random_image/locallang_db.xml:tt_content.pi_flexform.sheet_sql.sql_not_regexp</label>
+       <config type="array">
+        <type>input</type>
+        <size>100</size>
+        <max>255</max>
+        <default></default>
+       </config>
+      </TCEforms>
+     </sql_not_regexp>
+     <sql_img_max_width type="array">
+      <TCEforms type="array">
+       <label>LLL:EXT:sql_random_image/locallang_db.xml:tt_content.pi_flexform.sheet_sql.sql_img_max_width</label>
+       <config type="array">
+        <type>input</type>
+        <size>5</size>
+        <max>500</max>
+        <eval>int</eval>
+        <default>0</default>
+       </config>
+      </TCEforms>
+     </sql_img_max_width>
+     <sql_img_min_width type="array">
+      <TCEforms type="array">
+       <label>LLL:EXT:sql_random_image/locallang_db.xml:tt_content.pi_flexform.sheet_sql.sql_img_min_width</label>
+       <config type="array">
+        <type>input</type>
+        <size>5</size>
+        <max>500</max>
+        <eval>int</eval>
+        <default>0</default>
+       </config>
+      </TCEforms>
+     </sql_img_min_width>
+     <sql_hidden type="array">
+      <TCEforms type="array">
+       <label>LLL:EXT:sql_random_image/locallang_db.xml:tt_content.pi_flexform.sheet_sql.sql_hidden</label>
+       <config type="array">
+        <type>check</type>
+        <default>0</default>
+       </config>
+      </TCEforms>
+     </sql_hidden>
+     <sql_header type="array">
+      <TCEforms type="array">
+       <label>LLL:EXT:sql_random_image/locallang_db.xml:tt_content.pi_flexform.sheet_sql.sql_header</label>
+       <config type="array">
+        <type>check</type>
+        <default>0</default>
+       </config>
+      </TCEforms>
+     </sql_header>
+          <sql_only_image type="array">
+      <TCEforms type="array">
+       <label>LLL:EXT:sql_random_image/locallang_db.xml:tt_content.pi_flexform.sheet_sql.sql_only_image</label>
+       <config type="array">
+        <type>check</type>
+        <default>0</default>
+       </config>
+      </TCEforms>
+     </sql_only_image>
+     <sql_custom_check type="array">
+      <TCEforms type="array">
+       <label>LLL:EXT:sql_random_image/locallang_db.xml:tt_content.pi_flexform.sheet_sql.sql_custom_check</label>
+       <config type="array">
+        <type>check</type>
+        <default>0</default>
+       </config>
+      </TCEforms>
+     </sql_custom_check>
+     <sql_custom_expr type="array">
+      <TCEforms type="array">
+       <label>LLL:EXT:sql_random_image/locallang_db.xml:tt_content.pi_flexform.sheet_sql.sql_custom_expr</label>
+       <config type="array">
+        <type>input</type>
+        <size>250</size>
+        <max>500</max>
+        <default>SELECT `pid` , `header` , `image`, `altText` , `titleText` FROM `tt_content` WHERE `CType` = 'image' AND `header` != '' AND `hidden` =0 AND `image` NOT REGEXP ',' AND `imagecols` =1 ORDER BY `tt_content`.`tstamp` DESC LIMIT 0 , 30</default>
+       </config>
+      </TCEforms>
+     </sql_custom_expr>
+    </el>
+   </ROOT>
+  </sDEF>
+  <diplay type="array">
+   <ROOT type="array">
+    <TCEforms type="array">
+     <sheetTitle>LLL:EXT:sql_random_image/locallang_db.xml:tt_content.pi_flexform.sheet_display</sheetTitle>
+    </TCEforms>
+    <type>array</type>
+    <el type="array">
+     <img_height type="array">
+      <TCEforms type="array">
+       <label>LLL:EXT:sql_random_image/locallang_db.xml:tt_content.pi_flexform.sheet_display.img_height</label>
+       <config type="array">
+        <type>input</type>
+        <size>5</size>
+        <max>500</max>
+        <eval>int</eval>
+        <default>100</default>
+       </config>
+      </TCEforms>
+     </img_height>
+     <img_width type="array">
+      <TCEforms type="array">
+       <label>LLL:EXT:sql_random_image/locallang_db.xml:tt_content.pi_flexform.sheet_display.img_width</label>
+       <config type="array">
+        <type>input</type>
+        <size>5</size>
+        <max>500</max>
+        <eval>int</eval>
+        <default>100</default>
+       </config>
+      </TCEforms>
+     </img_width>
+          <limit_display type="array">
+      <TCEforms type="array">
+       <label>LLL:EXT:sql_random_image/locallang_db.xml:tt_content.pi_flexform.sheet_display.limit_display</label>
+       <config type="array">
+        <type>input</type>
+        <size>5</size>
+        <max>500</max>
+        <eval>int</eval>
+        <default>20</default>
+       </config>
+      </TCEforms>
+     </limit_display>
+    </el>
+   </ROOT>
+  </diplay>
+  <sheet_debug type="array">
+   <ROOT type="array">
+    <TCEforms type="array">
+     <sheetTitle>LLL:EXT:sql_random_image/locallang_db.xml:tt_content.pi_flexform.sheet_debug</sheetTitle>
+    </TCEforms>
+    <type>array</type>
+    <el type="array">
+     <debug type="array">
+      <TCEforms type="array">
+       <label>LLL:EXT:sql_random_image/locallang_db.xml:tt_content.pi_flexform.sheet_debug.debug</label>
+       <config type="array">
+        <type>check</type>
+        <default>0</default>
+       </config>
+      </TCEforms>
+     </debug>
+    </el>
+   </ROOT>
+  </sheet_debug>
+ </sheets>
+</T3DataStructure>

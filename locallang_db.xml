@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description></description>
+		<type>module</type>
+		<csh_table></csh_table>
+		<labelContext type="array">
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">SQL Random Images</label>
+			<label index="tt_content.pi_flexform.sheet_sql">SQL Select</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_regexp">SQL REGEXP</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_not_regexp">SQL NOT REGEXP</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_img_max_width">Image Max Width (0 to unactivate)</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_img_min_width">Image Min Width (0 to unactivate)</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_hidden">Also hidden images</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_header">Also empty header</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_only_image">Only images fields (not text/pics)</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_custom_check">Activate Custom SQL expression</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_custom_expr">Custom SQL expression</label>
+			<label index="tt_content.pi_flexform.sheet_display">Display</label>
+			<label index="tt_content.pi_flexform.sheet_display.img_height">Height</label>
+			<label index="tt_content.pi_flexform.sheet_display.img_width">Width</label>
+			<label index="tt_content.pi_flexform.sheet_display.random_mode_check">Random Mode</label>
+			<label index="tt_content.pi_flexform.sheet_display.limit_display">Limit Displayed images to (nb)  (0 to unactivate)</label>
+			<label index="tt_content.pi_flexform.sheet_debug">Debug</label>
+			<label index="tt_content.pi_flexform.sheet_debug.debug">Debug activated</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="tt_content.list_type_pi1">SQL Random Images</label>
+			<label index="tt_content.pi_flexform.sheet_sql">SQL Select</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_regexp">SQL REGEXP</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_not_regexp">SQL NOT REGEXP</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_img_max_width">Image largueur max (0 pour désactiver)</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_img_min_width">Image largeur min (0 pour désactiver)</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_hidden">Aussi les images cachées</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_header">Aussi les images sans titre</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_only_image">Uniquement les champs images (pas text/image)</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_custom_check">Expression SQL personnalisée activée</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_custom_expr">Expression SQL personnalisée</label>
+			<label index="tt_content.pi_flexform.sheet_display">Affichage</label>
+			<label index="tt_content.pi_flexform.sheet_display.img_height">Hauteur</label>
+			<label index="tt_content.pi_flexform.sheet_display.img_width">Largueur</label>
+			<label index="tt_content.pi_flexform.sheet_display.random_mode_check">Mode aléatoire</label>
+			<label index="tt_content.pi_flexform.sheet_display.limit_display">Limiter l'affichage à (nbre) images (0 pour désactiver)</label>
+			<label index="tt_content.pi_flexform.sheet_debug">Débogage</label>
+			<label index="tt_content.pi_flexform.sheet_debug.debug">Débogage activé</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="tt_content.list_type_pi1" type="integer">266372961</label>
+			<label index="tt_content.pi_flexform.sheet_sql" type="integer">18545968</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_regexp" type="integer">18126664</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_not_regexp" type="integer">56217763</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_img_max_width" type="integer">257067883</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_img_min_width" type="integer">161170534</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_hidden" type="integer">212924006</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_header" type="integer">91685498</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_only_image" type="integer">184258569</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_custom_check" type="integer">180752913</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_custom_expr" type="integer">209403942</label>
+			<label index="tt_content.pi_flexform.sheet_display" type="integer">194611106</label>
+			<label index="tt_content.pi_flexform.sheet_display.img_height" type="integer">250375243</label>
+			<label index="tt_content.pi_flexform.sheet_display.img_width" type="integer">53040229</label>
+			<label index="tt_content.pi_flexform.sheet_display.random_mode_check" type="integer">245047615</label>
+			<label index="tt_content.pi_flexform.sheet_display.limit_display" type="integer">130849440</label>
+			<label index="tt_content.pi_flexform.sheet_debug" type="integer">174078213</label>
+			<label index="tt_content.pi_flexform.sheet_debug.debug" type="integer">262447511</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index="tt_content.list_type_pi1">SQL Random Images</label>
+			<label index="tt_content.pi_flexform.sheet_sql">SQL Select</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_regexp">SQL REGEXP</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_not_regexp">SQL NOT REGEXP</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_img_max_width">Image Max Width (0 to unactivate)</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_img_min_width">Image Min Width (0 to unactivate)</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_hidden">Also hidden images</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_header">Also empty header</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_only_image">Only images fields (not text/pics)</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_custom_check">Activate Custom SQL expression</label>
+			<label index="tt_content.pi_flexform.sheet_sql.sql_custom_expr">Custom SQL expression</label>
+			<label index="tt_content.pi_flexform.sheet_display">Display</label>
+			<label index="tt_content.pi_flexform.sheet_display.img_height">Height</label>
+			<label index="tt_content.pi_flexform.sheet_display.img_width">Width</label>
+			<label index="tt_content.pi_flexform.sheet_display.random_mode_check">Random Mode</label>
+			<label index="tt_content.pi_flexform.sheet_display.limit_display">Limit Displayed images to (nb)  (0 to unactivate)</label>
+			<label index="tt_content.pi_flexform.sheet_debug">Debug</label>
+			<label index="tt_content.pi_flexform.sheet_debug.debug">Debug activated</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>
